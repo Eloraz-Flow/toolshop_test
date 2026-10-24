@@ -1,0 +1,16 @@
+{
+    "InvalidloginScenarios": [
+    {"label": "invalid password", "username": "customer3@practicesoftwaretesting.com", "password": "wrongpass", "expectError": "Invalid email or password"},
+    {"label": "unregistered email", "username": "zealiciousme@testing.com", "password": "pass123", "expectError": "Email is required"}
+    ],
+
+    "DOB_BoundaryScenario": [
+        {"label": "Dob_Cutoff","Firstname":"Rayan", "Lastname":"Osila", "DOB": "2008-03-03", "Country":"Finland", "Postcode":"40320", "Housenumber":"12", "Street":"Lilakuja", "City":"Hänninenjoki","State":"Uusimaa", "Phone":"04435628643", "Email":"rayanbluezz@zmail.com", "Password":"Ray@nbluzz04", "expectSucess": "true"},
+        {"label": "Dob_under_Cutoff","Firstname":"Rayan", "Lastname":"Osila", "DOB": "2010-03-03", "Country":"Finland", "Postcode":"40320", "Housenumber":"12", "Street":"Lilakuja", "City":"Hänninenjoki","State":"Uusimaa", "Phone":"04435628643", "Email":"rayanblue@zmail.com", "Password":"Ray@nbluzz04", "expectError": "Customer must be 18 years old."}
+    ],
+    "ContactEmptyScenario": [
+        {"label": "empty_fields","firstname":"", "lastname":"", "emailaddress":"", "subject":"", "message":""}
+    ]
+}
+
+

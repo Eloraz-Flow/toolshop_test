@@ -1,0 +1,19 @@
+{
+    "validproduct": {
+        "Search_Query": "hammer"
+    },
+    "invlaidproduct": {
+        "Search_Query": "zzmrhjkgjhfhgk"
+    },
+    "pricefilter": {
+        "min": "11",
+        "max": "50"
+    },
+    "validsorting": {
+        "Sort_Option": "Price (High - Low)"
+    },
+    "validprodquantity": {
+        "Product_Quantity": "3"
+    }
+    
+}

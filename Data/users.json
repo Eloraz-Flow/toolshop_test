@@ -1,0 +1,56 @@
+{
+    "validUser": {
+        "sut_url": "https://practicesoftwaretesting.com/default",
+        "username": "customer3@practicesoftwaretesting.com",
+        "password": "pass123"
+    },
+    "invalidUser": {
+        "username":"customer3@practicesoftwaretesting.com",
+        "password":"wrongpass"
+        
+    },
+    "newregistration": {
+        "firstname":"Jeal",
+        "lastname":"Nado",
+        "dob":"1994-09-09",
+        "country":"Finland",
+        "postcode":"40320",
+        "housenumber":"12",
+        "street":"Lilakuja",
+        "city":"Hänninenjoki",
+        "state":"Uusimaa",
+        "phone":"04435628643",
+        "email":"jeealnadooe@ymail.com",
+        "password":"SecurezzP@ss123"
+
+    },
+    "checkoutbio": {
+        "country":"Finland",
+        "postcode":"40320",
+        "housenumber":"12",
+        "street":"Lilakuja",
+        "city":"Hänninenjoki",
+        "state":"Uusimaa"
+        
+    },
+    "paymentoption": {
+        "valid_option":"Cash on Delivery"
+    },
+    "contactbio": {
+        "firstname":"Bob",
+        "lastname":"Smith",
+        "emailaddress":"customer3@practicesoftwaretesting.com",
+        "subject":"Status of my order",
+        "message":"Hello, I am writing to inquire about the status of my order, as I have not gotten any notification mail"
+        
+    },
+    "invalidcontactbio": {
+        "firstname":"Bob",
+        "lastname":"Smith",
+        "emailaddress":"customer3@practicesoftwaretesting.com",
+        "subject":"Status of my order",
+        "message":"Hello, Hi"
+        
+    }
+
+}
